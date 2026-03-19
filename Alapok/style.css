@@ -1,0 +1,59 @@
+body{
+    background-image: url(képek/alma.webp);
+}
+
+.container{
+    background-color:rgba(233, 150, 122, 80%);
+    /*width: 75%;*/
+    width: 800px;
+    margin: auto;
+    /*padding: 20px 20px 20px 20px; felső,jobb, alsó, bal*/
+    /*padding: 20px 20px 20px; felső oldalsók alsó*/
+    /*padding: 20px 20px; felső-alsó, jobb-bal*/
+    padding: 20px;
+    /*margin, padding*/
+    color: darkblue;
+    box-shadow: 5px 5px 8px black, -5px -5px 8px black;
+}
+
+h2{
+    background-color: rgba(250, 235, 215, 100);
+    text-shadow: 3px 3px 5px black;
+    box-shadow: 5px 5px 8px black;
+    padding: 10px 0px;
+    text-align:center;
+    width: 60%;
+    margin:auto;
+    border: 2px solid red;
+    border-radius: 100px;
+    opacity: 75%;
+}
+
+
+p{
+    background-color: bisque;
+}
+
+.paratlan_h2{
+    color: blue;
+}
+
+.paros_h2{
+    color: darkgreen;
+}
+
+#cimsorok{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 20px;
+    border: 2px solid red;
+    /*margin: 13px;*/
+}
+
+/* stílusok definiálása CSS3-szelektorokhoz (univerzális, elem, azonosító, osztály)
+CSS3-jellemzők alkalmazása (color, opacity, background*, border*, box-shadow, box-sizing, margin*, padding*, overflow, display, float, z-index, rel, width*, height*, top, bottom, left, right, position, line-height, text-align, vertical-align, textjustify, texttransform, font, font-family, font-size, font-style, text-decoration, list-style*, cursor, letter-spacing, viewport, white-space, float,) (a *-gal jelölt elemek több jellemzőt tartal-maznak, pl. margin-left, margin-right)
+CSS-függvények alkalmazása (url(), rgb(), rgba(), calc())
+médialekérdezések, törési pontok, viewport alkalmazása
+abszolút és relatív hosszmértékegységek (em, rem, százalék, vw, vh) alkalmazása
+Bootstrap keretrendszer alapszintű használata (tipográfiai elemek, konténerek, reszpon-zív viselkedést biztosító rácsok, szövegek elrendezése, listák formázása, táblázatok for-mázása, képek kezelése, tartalom elkülönítése, panelek formázása, gombok kialakítása és formázása) */
